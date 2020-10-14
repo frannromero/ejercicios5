@@ -1,0 +1,61 @@
+:root{
+    --color: bisque;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4b178b9;
+}
+
+.form {
+    height: 300px; 
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--color);
+    font-size: 18px;
+}
+
+.doc {
+    display: flex;
+    flex-direction: column;
+}
+
+.select {
+    border: none;
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--color);
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: center;
+    align-content: stretch;
+    background-color: var(--color);
+}
+
+.input {
+    width: 500px;
+    height: 30px;
+    border-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none ;
+    background-color: var(--color);
+}
+
+.descripcion {
+    width: 494px;
+    height: 100px;
+    background-color: var(--color);
+}

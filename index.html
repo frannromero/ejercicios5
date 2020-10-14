@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="styles/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <form class="form">
+        <div class="names">
+            <input id="nombres" placeholder="Nombres" type="text" name="first_name" class="input">
+            
+            <input id="apellidos" placeholder="Apellidos" type="text" name="second_name" class="input">
+            </div>
+    
+        <div class="doc">
+        <label for="doc">Tipo de Documento</label>
+        <select id="doc" name="doc" class="select">
+            <option value="dni">Tarjeta de Identidad</option>
+            <option value="pasaporte">Pasaporte</option>
+        </select>
+        </div>
+
+        <div class="genre">
+         <div>   
+         <span>Genero</span>    
+         </div>
+        <label for="masculino">Masculino</label>
+        <input id="masculino" type="radio" name="radio1">
+
+        <label for="femenino">Femenino</label>
+        <input id="femenino" type="radio" name="radio1">
+        </div>
+
+         <div>
+        <textarea placeholder="Escribe un texto" class="descripcion"></textarea>
+        </div>
+    </form> 
+</body>
+</html>
